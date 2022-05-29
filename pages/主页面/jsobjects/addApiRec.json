@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "addApiRec",
+    "pageId": "主页面",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n  submit: async () => {\n\t\tawait getAdminToken.run();\n\t\tawait getAdminOnePage.run();\n\t\tawait addAPI.run();\n    await cvtApiOnePage.convert();\n\t}\n}",
+    "variables": []
+  },
+  "id": "主页面_addApiRec",
+  "deleted": false,
+  "gitSyncId": "6292195bdf4a512610f30226_629386d8df4a512610f30297"
+}

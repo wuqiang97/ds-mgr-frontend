@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "cvtApiOnePage",
+    "pageId": "主页面",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tconvert: () => {\n\t  var rowsArray = [];\n\t\tvar rowDescArray = {};\n\t\trowDescArray = getAdminOnePage.data.rowDesc.split(\"|\");\n\t\tfor (var i=0; i < getAdminOnePage.data.rows.length; i++) {\n\t\t  var rowsItemArrray = {};\n\t\t\trowsItemArrray = getAdminOnePage.data.rows[i].split(\"|\");\n\t\t\tvar rowArray = {};\n\t\t\tfor (var j=0; j < rowsItemArrray.length; j++) {\n\t\t\t\trowArray[rowDescArray[j]] = rowsItemArrray[j]\n\t\t\t}\n\t\t\trowsArray.push(rowArray);\n\t\t}\n\t\treturn rowsArray;\t\t\n\t}\n}",
+    "variables": []
+  },
+  "id": "主页面_cvtApiOnePage",
+  "deleted": false,
+  "gitSyncId": "6292195bdf4a512610f30226_6293537ddf4a512610f3027d"
+}

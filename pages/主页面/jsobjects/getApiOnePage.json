@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "getApiOnePage",
+    "pageId": "主页面",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n  load: async () => {\n\t\tawait getAdminToken.run();\n\t\tawait getAdminOnePage.run();\n    await cvtApiOnePage.convert();\n\t}\n}",
+    "variables": []
+  },
+  "id": "主页面_getApiOnePage",
+  "deleted": false,
+  "gitSyncId": "6292195bdf4a512610f30226_6293018bdf4a512610f3024d"
+}

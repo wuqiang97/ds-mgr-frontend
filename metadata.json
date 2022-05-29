@@ -1,0 +1,41 @@
+{
+  "clientSchemaVersion": 1,
+  "serverSchemaVersion": 4,
+  "pageOrder": [
+    "主页面"
+  ],
+  "publishedPageOrder": [
+    "主页面"
+  ],
+  "publishedDefaultPageName": "主页面",
+  "unpublishedDefaultPageName": "主页面",
+  "invisibleActionFields": {
+    "主页面_addAPI": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "主页面_addApiRec.submit": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "主页面_cvtApiOnePage.convert": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "主页面_getAdminOnePage": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "主页面_getAdminToken": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "主页面_getApiOnePage.load": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    }
+  },
+  "publishedLayoutmongoEscapedWidgets": {},
+  "unpublishedLayoutmongoEscapedWidgets": {},
+  "fileFormatVersion": 2
+}
